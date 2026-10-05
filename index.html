@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b3d91">
+<meta name="robots" content="noindex, nofollow">
+<title>Certificado Válido — Yuridiss João Chaúque | ANEP 1060/084/001/2019</title>
+
+<!-- ===================================================================
+     PÁGINA DE VALIDAÇÃO DE CERTIFICADO (Opção B)
+     Ficheiro: /validar/index.html
+     Basta editar os blocos marcados com  <!-- EDITAR -- >
+     O PDF deve ficar nesta mesma pasta com o nome: YURIDISS JOÃO CHAÚQUE ID=110202327883J.pdf
+     =================================================================== -->
+
+<style>
+/* ---------- Base / tokens ---------- */
+:root{
+  --azul:#0b3d91;
+  --azul-escuro:#072a63;
+  --verde:#0f9d58;
+  --verde-escuro:#0b7a44;
+  --tinta:#0f172a;
+  --cinza:#5b6b82;
+  --linha:#e3e9f2;
+  --fundo:#f4f7fb;
+  --cartao:#ffffff;
+  --sombra:0 18px 45px rgba(11,61,145,.10), 0 2px 6px rgba(15,23,42,.05);
+  --raio:18px;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --tinta:#e8eef7; --cinza:#9db0c9; --linha:#23304a;
+    --fundo:#0b1220; --cartao:#131c2e;
+    --sombra:0 18px 45px rgba(0,0,0,.45);
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--fundo);
+  color:var(--tinta);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  -webkit-font-smoothing:antialiased;
+  line-height:1.55;
+  min-height:100vh;
+  padding:20px 14px 40px;
+  display:flex;align-items:flex-start;justify-content:center;
+}
+
+/* ---------- Cartão ---------- */
+.cartao{
+  width:100%;max-width:620px;
+  background:var(--cartao);
+  border-radius:var(--raio);
+  box-shadow:var(--sombra);
+  overflow:hidden;
+}
+
+/* ---------- Topo ---------- */
+.topo{
+  background:linear-gradient(135deg,var(--azul) 0%,var(--azul-escuro) 100%);
+  color:#fff;padding:22px 22px 26px;text-align:center;
+}
+.marca{
+  display:flex;align-items:center;justify-content:center;gap:10px;
+  font-size:12px;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:20px;
+}
+.marca svg{flex:none}
+.topo h1{margin:0;font-size:14px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;opacity:.9}
+.topo .sub{margin:6px 0 0;font-size:13px;opacity:.75}
+
+/* ---------- Selo de verificação ---------- */
+.selo{
+  width:104px;height:104px;margin:0 auto 16px;border-radius:50%;
+  background:rgba(255,255,255,.14);
+  display:flex;align-items:center;justify-content:center;
+  animation:surgir .5s cubic-bezier(.2,.9,.3,1.4) both;
+}
+@keyframes surgir{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
+.selo .bola{
+  width:78px;height:78px;border-radius:50%;background:#fff;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 22px rgba(0,0,0,.18);
+}
+.selo svg path{
+  stroke-dasharray:48;stroke-dashoffset:48;
+  animation:riscar .55s .35s ease-out forwards;
+}
+@keyframes riscar{to{stroke-dashoffset:0}}
+
+.estado{
+  display:inline-flex;align-items:center;gap:8px;
+  background:var(--verde);color:#fff;
+  font-weight:700;font-size:15px;letter-spacing:.06em;
+  padding:10px 20px;border-radius:999px;
+  box-shadow:0 6px 18px rgba(15,157,88,.35);
+}
+.estado.invalido{background:#d93025;box-shadow:0 6px 18px rgba(217,48,37,.32)}
+.estado-txt{text-transform:uppercase}
+
+.frase{margin:14px 0 0;font-size:13px;opacity:.85;padding:0 6px}
+
+/* ---------- Corpo ---------- */
+.corpo{padding:24px 22px 8px}
+.bloco-titulo{
+  font-size:11px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--cinza);margin:0 0 12px;
+}
+.titular{
+  font-size:clamp(20px,5.4vw,26px);font-weight:700;margin:0 0 4px;line-height:1.25;
+  word-break:break-word;
+}
+.curso{color:var(--cinza);font-size:14px;margin:0 0 18px}
+
+.dados{border:1px solid var(--linha);border-radius:14px;overflow:hidden;margin-bottom:22px}
+.linha{display:flex;gap:12px;padding:13px 16px;border-bottom:1px solid var(--linha);font-size:14px}
+.linha:last-child{border-bottom:0}
+.linha .chave{
+  flex:0 0 40%;color:var(--cinza);font-size:12.5px;text-transform:uppercase;
+  letter-spacing:.05em;font-weight:600;padding-top:1px;
+}
+.linha .valor{flex:1;font-weight:600;word-break:break-word}
+.linha .valor.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:13px}
+.linha .valor.csv{font-size:11px;color:var(--cinza);display:block;font-weight:400;margin-top:3px}
+
+.selo-ok{
+  display:inline-flex;align-items:center;gap:6px;color:var(--verde-escuro);
+  font-weight:700;font-size:13px;
+}
+@media (prefers-color-scheme: dark){ .selo-ok{color:#4ade80} }
+
+/* ---------- Botões ---------- */
+.acoes{padding:0 22px 4px;display:grid;gap:12px}
+@media (min-width:520px){ .acoes{grid-template-columns:1fr 1fr} }
+.botao{
+  display:flex;align-items:center;justify-content:center;gap:9px;
+  padding:15px 18px;border-radius:12px;font-size:15px;font-weight:700;
+  text-decoration:none;border:0;cursor:pointer;font-family:inherit;
+  transition:transform .12s ease, box-shadow .2s ease, background .2s ease;
+  -webkit-tap-highlight-color:transparent;
+}
+.botao:active{transform:translateY(1px)}
+.botao-primario{
+  background:linear-gradient(135deg,var(--azul) 0%,var(--azul-escuro) 100%);
+  color:#fff;box-shadow:0 8px 20px rgba(11,61,145,.28);
+}
+.botao-secundario{background:#eef3fb;color:var(--azul);border:1px solid #d6e2f5}
+@media (prefers-color-scheme: dark){ .botao-secundario{background:#1c2942;color:#8ab4ff;border-color:#2c3d61} }
+
+/* ---------- Notas ---------- */
+.notas{padding:22px}
+.nota{
+  display:flex;gap:10px;font-size:12.5px;color:var(--cinza);
+  background:rgba(11,61,145,.04);border-left:3px solid var(--azul);
+  border-radius:0 10px 10px 0;padding:12px 14px;margin-top:14px;line-height:1.6;
+}
+@media (prefers-color-scheme: dark){ .nota{background:rgba(255,255,255,.04)} }
+.nota svg{flex:none;margin-top:2px}
+.hash{
+  font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  font-size:10.5px;color:var(--cinza);word-break:break-all;margin-top:12px;
+}
+
+/* ---------- Rodapé ---------- */
+.rodape{
+  padding:16px 22px 24px;text-align:center;font-size:11.5px;color:var(--cinza);
+  border-top:1px solid var(--linha);
+}
+.rodape strong{color:var(--tinta);font-weight:600}
+
+/* ---------- Estado inválido (controlado por JS) ---------- */
+.oculto{display:none !important}
+
+/* ---------- Impressão ---------- */
+@media print{
+  body{background:#fff;padding:0}
+  .cartao{box-shadow:none;max-width:100%}
+  .acoes,.selo{display:none}
+  .topo{background:#0b3d91 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style>
+</head>
+
+<body>
+<main class="cartao" role="main">
+
+  <!-- ===== TOPO ===== -->
+  <header class="topo">
+    <!-- EDITAR: logótipo / nome da instituição -->
+    <div class="marca">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 2 4 5v6.5c0 5 3.4 9.2 8 10.5 4.6-1.3 8-5.5 8-10.5V5l-8-3Z"
+              stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/>
+      </svg>
+      <span>Instituto de Formação — Ensino Profissional</span>
+    </div>
+
+    <div class="selo" aria-hidden="true">
+      <div class="bola">
+        <svg width="42" height="42" viewBox="0 0 24 24" fill="none">
+          <path d="M4.5 12.6l4.6 4.6L19.5 7.2" stroke="#0f9d58" stroke-width="2.6"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+    </div>
+
+    <h1>Verificação de Certificado</h1>
+    <p class="sub">Sistema de validação por código QR</p>
+
+    <p style="margin:22px 0 0">
+      <span class="estado" id="estado">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M4.5 12.6l4.6 4.6L19.5 7.2" stroke="#fff" stroke-width="2.6"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="estado-txt" id="estadoTxt">Certificado Válido</span>
+      </span>
+    </p>
+    <p class="frase" id="frase">Este documento foi emitido e encontra-se registado na base de dados da instituição.</p>
+  </header>
+
+  <!-- ===== DADOS DO FORMADO ===== -->
+  <section class="corpo">
+    <p class="bloco-titulo">Dados do titular</p>
+
+    <h2 class="titular">Yuridiss João Chaúque</h2>            <!-- EDITAR: nome -->
+    <p class="curso">4wd Defensive Driving — Practical</p>      <!-- EDITAR: curso -->
+
+    <div class="dados">
+      <div class="linha">
+        <span class="chave">Nº de Identificação</span>
+        <span class="valor mono">110202327883J</span>            <!-- EDITAR: ID -->
+      </div>
+      <div class="linha">
+        <span class="chave">Curso / Acção</span>
+        <span class="valor">4wd Defensive Driving — Practical</span>
+      </div>
+      <div class="linha">
+        <span class="chave">Acreditação ANEP</span>
+        <span class="valor mono">N.º 1060/084/001/2019</span>     <!-- EDITAR: acreditação -->
+      </div>
+      <div class="linha">
+        <span class="chave">Modalidade</span>
+        <span class="valor">Formação Profissional — Área de Condução Defensiva 4x4</span>
+      </div>
+      <div class="linha">
+        <span class="chave">Data de emissão</span>
+        <span class="valor">Conforme documento em anexo</span>    <!-- EDITAR: data -->
+      </div>
+      <div class="linha">
+        <span class="chave">Situação</span>
+        <span class="valor">
+          <span class="selo-ok">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+              <path d="M8 12.4l2.6 2.6L16 9.4" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Emitido e acreditado
+          </span>
+        </span>
+      </div>
+      <div class="linha">
+        <span class="chave">Verificado em</span>
+        <span class="valor" id="verificadoEm">—</span>
+      </div>
+      <div class="linha">
+        <span class="chave">Código de validação</span>
+        <span class="valor mono">FFC42-886B6</span>
+      </div>
+    </div>
+
+    <!-- ===== BOTÕES ===== -->
+    <div class="acoes">
+      <a class="botao botao-primario" href="YURIDISS JOÃO CHAÚQUE ID=110202327883J.pdf" target="_blank" rel="noopener">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12Z"
+                stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+          <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.7"/>
+        </svg>
+        Visualizar Certificado
+      </a>
+
+      <!-- EDITAR: nome do ficheiro gerado no telemóvel/PC -->
+      <a class="botao botao-secundario" href="YURIDISS JOÃO CHAÚQUE ID=110202327883J.pdf"
+         download="Certificado - Yuridiss Joao Chauque (110202327883J).pdf">
+        <svg width="19" height="19" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 4v11m0 0 4.5-4.5M12 15l-4.5-4.5" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M4.5 19h15" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+        Baixar PDF
+      </a>
+    </div>
+
+    <!-- ===== NOTAS ===== -->
+    <div class="notas">
+      <div class="nota">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="12" cy="12" r="9" stroke="#0b3d91" stroke-width="1.8"/>
+          <path d="M12 11v5.5M12 7.8v.6" stroke="#0b3d91" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span>
+          A autenticidade deste certificado pode ser confirmada em qualquer momento através do
+          código QR impresso no documento original. Guarde este comprovativo para efeitos de auditoria.
+        </span>
+      </div>
+
+      <div class="nota">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12 2 4 5v6.5c0 5 3.4 9.2 8 10.5 4.6-1.3 8-5.5 8-10.5V5l-8-3Z"
+                stroke="#0b3d91" stroke-width="1.7" stroke-linejoin="round"/>
+        </svg>
+        <span>
+          <strong>Atenção a tentativas de fraude:</strong> confirme sempre que o endereço no
+          navegador pertence ao domínio oficial da instituição antes de considerar o documento válido.
+        </span>
+      </div>
+
+      <p class="hash">SHA-256 do ficheiro: 23fa2fe77840ad85e1f680f4c0c79e9d3f5becf6824a28378dff49a207a6f2a6</p>
+    </div>
+  </section>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="rodape">
+    <strong>Documento verificado electronicamente</strong><br>
+    &copy; <span id="ano">2026</span> Instituto de Formação — Ensino Profissional. Todos os direitos reservados.
+  </footer>
+
+</main>
+
+<script>
+/* =========================================================================
+   1) DADOS DO CERTIFICADO  (EDITAR — usados na validação por URL)
+   O QR Code deve apontar para:
+   https://SEU-DOMINIO/validar/?id=110202327883J&ac=1060-084-001-2019
+   ========================================================================= */
+var CERT = {
+  id: "110202327883J",          // Nº de identificação do titular
+  ac: "1060-084-001-2019"       // Acreditação ANEP (com hífenes)
+};
+
+/* ---------- Data/hora da verificação + ano no rodapé ---------- */
+(function () {
+  var agora = new Date();
+  var txt = agora.toLocaleDateString("pt-PT", { day: "2-digit", month: "long", year: "numeric" })
+          + " às "
+          + agora.toLocaleTimeString("pt-PT", { hour: "2-digit", minute: "2-digit" });
+
+  var el = document.getElementById("verificadoEm");
+  if (el) el.textContent = txt;
+
+  var ano = document.getElementById("ano");
+  if (ano) ano.textContent = agora.getFullYear();
+})();
+
+/* ---------- Validação dos parâmetros do QR (?id= e ?ac=) ----------
+   Se o QR trouxer dados diferentes dos registados nesta página,
+   o estado passa a "NÃO CONFIRMADO" e o botão de download é bloqueado. */
+(function () {
+  var p = new URLSearchParams(window.location.search);
+  var id = p.get("id");
+  var ac = p.get("ac");
+
+  if (!id && !ac) return;                       // sem parâmetros: mostra estado válido
+
+  var normalizar = function (v) {
+    return String(v || "").toUpperCase().replace(/\s+/g, "").replace(/\//g, "-").replace(/-+/g, "-");
+  };
+
+  var ok = true;
+  if (id && normalizar(id) !== normalizar(CERT.id)) ok = false;
+  if (ac && normalizar(ac) !== normalizar(CERT.ac)) ok = false;
+
+  if (ok) return;
+
+  // --- Estado inválido ---
+  var estado = document.getElementById("estado");
+  var txt    = document.getElementById("estadoTxt");
+  var frase  = document.getElementById("frase");
+
+  if (estado) estado.className = "estado invalido";
+  if (txt)    txt.textContent  = "Certificado Não Confirmado";
+  if (frase)  frase.textContent = "Os dados do código QR lido não correspondem a nenhum certificado registado.";
+
+  document.querySelectorAll("a.botao").forEach(function (b) {
+    b.removeAttribute("href");
+    b.setAttribute("aria-disabled", "true");
+    b.style.opacity = ".45";
+    b.style.pointerEvents = "none";
+  });
+})();
+</script>
+</body>
+</html>
